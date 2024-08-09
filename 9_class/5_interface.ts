@@ -29,7 +29,7 @@ function instanceOfAnimal(object: any): object is Animal {
     return 'jump' in object;
 }
 
-if(instanceOfAnimal(ori)){
+if (instanceOfAnimal(ori)) {
     ori;
 }
 
@@ -39,6 +39,7 @@ if(instanceOfAnimal(ori)){
 
 interface Pet {
     legsCount: number;
+
     bark(): void;
 }
 
@@ -114,7 +115,7 @@ class Idol {
 }
 
 interface IdolConstructor {
-    new (name: string, age: number):Idol;
+    new(name: string, age: number): Idol;
 }
 
 function createIdol(constructor: IdolConstructor, name: string, age: number) {
