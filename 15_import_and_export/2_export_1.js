@@ -14,3 +14,7 @@ class IdolModel {
 exports.IdolModel = IdolModel;
 exports.rose = new IdolModel('로제', 28);
 exports.number = 99;
+exports.default = {
+    name: '이름',
+    age: 33
+};

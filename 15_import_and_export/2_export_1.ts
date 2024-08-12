@@ -20,3 +20,8 @@ export interface ICat {
     name: string;
     age: number;
 }
+
+export default {
+    name: '이름',
+    age: 33
+}
